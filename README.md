@@ -210,4 +210,14 @@ git init
 ![image](https://github.com/user-attachments/assets/7eb2478b-6571-41cb-9b8d-5da2b3b11c5d)
 
 
+## We create a new repository on Azure DevOps to transfer our project.
+
+## Projemizi aktarmak için Azure DevOps üzerinde yeni bir repository oluşturuyoruz.
+
+
+![image](https://github.com/user-attachments/assets/b41ed4d4-f268-4a1b-beaf-3f53a17a1255)
+
+
+![image](https://github.com/user-attachments/assets/ead4b5fb-561d-44cf-ab44-0a2dde46cf91)
+
 
