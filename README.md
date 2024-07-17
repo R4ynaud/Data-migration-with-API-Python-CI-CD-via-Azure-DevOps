@@ -60,6 +60,6 @@ Azure DevOps, yazılım geliştirme, test etme ve dağıtım süreçlerini otoma
 
 • Aşağıdaki bağlantıdan Python'un en son sürümünü indirip yükleyin.
 
-```
+
 https://www.python.org/downloads/windows/
-```
+
