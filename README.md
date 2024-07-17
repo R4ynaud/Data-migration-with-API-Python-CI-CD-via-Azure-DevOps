@@ -117,3 +117,17 @@ pyinstaller --onefile Data.py
 
 
 ![image](https://github.com/user-attachments/assets/ed58b1c1-2887-473d-9fa2-d62518cb396b)
+
+
+## Finally, after running the executable (.exe), we check if the data has been transferred correctly, first from our browser and then from the database.
+
+## Data.exe'i çalıştırdıktan sonra, önce tarayıcımızdan, ardından veritabanından verilerin doğru şekilde aktarılıp aktarılmadığını kontrol ediyoruz.
+
+
+![image](https://github.com/user-attachments/assets/161f638e-4d97-4bdd-9ec2-68aebbcac823)
+
+
+NOTE !!! 
+
+![image](https://github.com/user-attachments/assets/1c6bc4a5-86ec-4bbe-9979-363207a8e27b)
+
