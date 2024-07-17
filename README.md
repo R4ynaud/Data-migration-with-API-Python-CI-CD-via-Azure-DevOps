@@ -261,7 +261,8 @@ git remote set-url origin https://dev.azure.com/your_organization/your_project/_
 git push origin master
 ```
 
-![image](https://github.com/user-attachments/assets/ab107ac5-4dc6-42d2-ab8d-4da07e3f57eb)
+![image](https://github.com/user-attachments/assets/67d3d4de-fef4-4b71-b9a2-d3d98f75fdb5)
+
 
 
 
