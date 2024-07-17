@@ -75,8 +75,15 @@ pip --version
 ![image](https://github.com/user-attachments/assets/22e8ce6b-41b6-490b-9855-f0cdc02bec10)
 
 
+## We need to install FastAPI and Uvicorn to create the API.
 
+## API’yi oluşturmak için FastAPI ve Uvicorn kurmamız gerekiyor.
 
+```
+pip install fastapi uvicorn
+```
+
+![image](https://github.com/user-attachments/assets/9c8b50f7-1c2e-4beb-b687-d963d93d9328)
 
 
 
