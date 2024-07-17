@@ -221,3 +221,30 @@ git init
 ![image](https://github.com/user-attachments/assets/ead4b5fb-561d-44cf-ab44-0a2dde46cf91)
 
 
+## After creating a new repository, Azure DevOps will provide you with the repository URL. You can use this URL to connect the repository to Azure DevOps.
+
+## Yeni bir repository oluşturduktan sonra, Azure DevOps size repository URL'sini verecektir. Bu URL'yi kullanarak repository'i Azure DevOps'a bağlayabilirsiniz.
+
+
+
+## Go to the directory of the repository we created.
+
+## Oluşturduğumuz repository dizinine gidin.
+
+
+```
+C:\Users\Administrator\Desktop\Azure
+```
+
+## Set up the remote configuration using the Azure DevOps repository URL.
+
+## Azure DevOps repository URL'sini kullanarak remote ayarını yapın.
+
+```
+git remote set-url origin https://dev.azure.com/your_organization/your_project/_git/your_repo
+```
+
+![image](https://github.com/user-attachments/assets/d8183df2-e7ac-40a3-a9b8-6f98646c6e18)
+
+
+
