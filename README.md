@@ -267,4 +267,39 @@ git push origin master
 ![image](https://github.com/user-attachments/assets/89cae3c9-c327-430a-b43b-1e65130d4153)
 
 
+## CI (Continuous Integration) Pipeline'ı Oluşturma
+
+## Creating a CI (Continuous Integration) Pipeline.
+
+• Azure DevOps portalında, sol menüde "Pipelines" sekmesine gidin ve "New Pipeline" butonuna tıklayın.
+
+• In the Azure DevOps portal, go to the 'Pipelines' section in the left menu and click on the 'New Pipeline' button.
+
+![image](https://github.com/user-attachments/assets/fac947b7-6d6d-4867-8a72-e441a12684f6)
+
+![image](https://github.com/user-attachments/assets/07130bad-af2e-4eaf-af9b-41511bc393be)
+
+
+• For the 'Where is your code ?' question, select the 'Azure Repos Git' option.
+
+• 'Where is your code ?' sorusuna "Azure Repos Git" seçeneğini seçin.
+
+![image](https://github.com/user-attachments/assets/b060f8f6-fdd8-474f-96c2-1d22fa1542db)
+
+
+• Select your repository.
+
+• Repository'nizi seçin.
+
+![image](https://github.com/user-attachments/assets/502bcbd3-5ae0-4b65-b489-7b03bafc8868)
+
+
+
+
+
+
+
+
+
+
 
