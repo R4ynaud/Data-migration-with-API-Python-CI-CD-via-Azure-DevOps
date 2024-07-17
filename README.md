@@ -184,3 +184,14 @@ https://github.com/Microsoft/sql-server-samples/tree/master/samples/databases/no
 
 ![image](https://github.com/user-attachments/assets/1c6bc4a5-86ec-4bbe-9979-363207a8e27b)
 
+
+# Azure DevOps configuration.
+
+We have developed and tested our API, ensuring seamless data transfer. However, to run this API continuously, we need to initiate a CI/CD process in Azure DevOps to automate all these processes. This ensures uninterrupted and error-free data transfer operations. CI/CD integration allows for instant application of code changes and rapid deployment of new versions, thereby increasing operational efficiency.
+
+# Azure DevOps yapılandırması. 
+
+API'mizi oluşturduk ve test ettik; sorunsuz veri aktarımı gerçekleştiriyor. Ancak, bu API'yi sürekli olarak çalıştırmak için Azure DevOps'ta bir CI/CD süreci başlatarak tüm bu süreçleri otomatikleştirmeliyiz. Bu sayede, veri aktarımı işlemleri kesintisiz ve hatasız bir şekilde gerçekleştirilir. CI/CD entegrasyonu, kod değişikliklerinin anında uygulanmasını ve yeni sürümlerin hızlı bir şekilde dağıtılmasını sağlar, böylece operasyonel verimlilik artar.
+
+
+
