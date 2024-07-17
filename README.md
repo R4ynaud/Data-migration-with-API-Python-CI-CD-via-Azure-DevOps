@@ -63,3 +63,28 @@ Azure DevOps, yazılım geliştirme, test etme ve dağıtım süreçlerini otoma
 
 https://www.python.org/downloads/windows/
 
+
+## To check if Pip is installed correctly, run the following command.
+
+## Pip'in doğru kurulup kurulmadığını kontrol etmek için aşağıdaki komutu çalıştırın.
+
+```
+pip --version
+```
+
+![image](https://github.com/user-attachments/assets/22e8ce6b-41b6-490b-9855-f0cdc02bec10)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
