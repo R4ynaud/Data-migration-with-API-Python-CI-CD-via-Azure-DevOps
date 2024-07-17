@@ -247,5 +247,22 @@ git remote set-url origin https://dev.azure.com/your_organization/your_project/_
 ![image](https://github.com/user-attachments/assets/1580f6ce-4b95-449a-a2a4-06c7a87b9899)
 
 
+## We push the repository we created locally to Azure DevOps using the following git command.
+
+## Local olarak oluşturduğumuz repository’yi aşağıdaki git komutunu kullanarak Azure DevOps’a push ediyoruz.
+
+
+• If you are doing this for the first time, it will ask you to enter your username and password !
+
+• Eğer bu işlemi ilk kez yapıyorsanız sizden kullanıcı adınızı ve şifrenizi girmenizi isteyecektir !
+
+
+```
+git push origin master
+```
+
+![image](https://github.com/user-attachments/assets/ab107ac5-4dc6-42d2-ab8d-4da07e3f57eb)
+
+
 
 
