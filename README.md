@@ -271,9 +271,9 @@ git push origin master
 
 ## Creating a CI (Continuous Integration) Pipeline.
 
-• Azure DevOps portalında, sol menüde "Pipelines" sekmesine gidin ve "New Pipeline" butonuna tıklayın.
+• Azure DevOps portalında, sol menüde 'Pipelines' sekmesine gidin ve 'Create Pipeline' butonuna tıklayın.
 
-• In the Azure DevOps portal, go to the 'Pipelines' section in the left menu and click on the 'New Pipeline' button.
+• In the Azure DevOps portal, go to the 'Pipelines' section in the left menu and click on the 'Create Pipeline' button.
 
 ![image](https://github.com/user-attachments/assets/fac947b7-6d6d-4867-8a72-e441a12684f6)
 
@@ -294,9 +294,36 @@ git push origin master
 ![image](https://github.com/user-attachments/assets/502bcbd3-5ae0-4b65-b489-7b03bafc8868)
 
 
+• In the 'Configure your pipeline' step, select the 'Starter pipeline' option and edit the following YAML file.
+
+• 'Configure your pipeline' adımında, 'Starter pipeline' seçeneğini seçin ve aşağıdaki YAML dosyasını düzenleyin
+
+![image](https://github.com/user-attachments/assets/c23b069e-ad59-4cb9-89ec-54f578a5298a)
 
 
+```
+trigger:
+- main  # main branch üzerine push yapıldığında pipeline tetiklenir
 
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- task: UsePythonVersion@0
+  inputs:
+    versionSpec: '3.x'
+    addToPath: true
+
+- script: |
+    python -m pip install --upgrade pip
+    pip install fastapi uvicorn pyodbc
+  displayName: 'Install dependencies'
+
+- script: |
+    python Data.py
+  displayName: 'Run API'
+
+```
 
 
 
