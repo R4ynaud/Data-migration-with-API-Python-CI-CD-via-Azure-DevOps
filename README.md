@@ -50,3 +50,8 @@ Bu dokümanda, Python kullanarak API geliştireceğiz. Python'un geniş kütüph
 ### Azure DevOps Üzerinde Tüm Sürecin Otomatize Edilmesi
 
 Azure DevOps, yazılım geliştirme, test etme ve dağıtım süreçlerini otomatize eden güçlü bir platformdur. Python tabanlı API'ların entegrasyonu ile sürekli entegrasyon (CI), sürekli teslimat (CD), test otomasyonu ve izleme gibi süreçler tamamen otomatize edilebilir. Bu, hata riskini azaltır, sürecin hızını artırır ve yazılım kalitesini iyileştirir.
+
+
+## Öncelikle API’mizi geliştirmek için bilgisayarımıza Python kuruyoruz.
+
+## Öncelikle API’mizi geliştirmek için bilgisayarımıza Python kuruyoruz.
