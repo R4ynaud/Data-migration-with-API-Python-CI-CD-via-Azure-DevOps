@@ -86,12 +86,28 @@ pip install fastapi uvicorn
 ![image](https://github.com/user-attachments/assets/9c8b50f7-1c2e-4beb-b687-d963d93d9328)
 
 
+## After completing the installations, use an editor to convert the following Python code into a .py file.
+
+## Kurulumları tamamladıktan sonra aşağıdaki Python kodunu bir editör kullanarak .py dosyasına dönüştürün.
+
+```
+```
+
+## To convert the API we created into an executable (.exe), run the following commands in order.
+
+## Oluşturduğumuz API’yi çalıştırılabilir (.exe) bir dosyaya dönüştürmek için aşağıdaki komutları sırasıyla çalıştırın.
+
+```
+pip install pyinstaller
+```
+
+![image](https://github.com/user-attachments/assets/2b43901f-81de-4dc1-ae56-c108e7356f38)
 
 
+```
+pyinstaller --onefile Data.py
 
+```
 
-
-
-
-
+![image](https://github.com/user-attachments/assets/9b3e28ef-cdf0-45e9-a6ba-6962b12ca0da)
 
