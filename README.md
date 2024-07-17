@@ -91,6 +91,53 @@ pip install fastapi uvicorn
 ## Kurulumları tamamladıktan sonra aşağıdaki Python kodunu bir editör kullanarak .py dosyasına dönüştürün.
 
 ```
+import pyodbc
+from fastapi import FastAPI
+
+app = FastAPI()
+
+# Source & Target DB Connection
+
+source_conn = pyodbc.connect(
+    'DRIVER={SQL Server};SERVER=source_server;DATABASE=Work;UID=user;PWD=password'
+)
+target_conn = pyodbc.connect(
+    'DRIVER={SQL Server};SERVER=target_server;DATABASE=Target;UID=user;PWD=password'
+)
+
+# Data migration function
+def transfer_data():
+    source_cursor = source_conn.cursor()
+    target_cursor = target_conn.cursor()
+
+    source_cursor.execute('SELECT * FROM Customers')
+    rows = source_cursor.fetchall()
+
+    for row in rows:
+        # CustomerID check in target database
+        target_cursor.execute('SELECT COUNT(*) FROM Target_Customers WHERE CustomerID = ?', row.CustomerID)
+        if target_cursor.fetchone()[0] == 0:
+            # Add CustomerID if it is not in the target database
+            target_cursor.execute('''
+                INSERT INTO Target_Customers (CustomerID, CompanyName, ContactName, ContactTitle, Address, City, Region, PostalCode, Country, Phone, Fax)
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            ''', row.CustomerID, row.CompanyName, row.ContactName, row.ContactTitle, row.Address, row.City, row.Region, row.PostalCode, row.Country, row.Phone, row.Fax)
+
+    target_conn.commit()
+    source_cursor.close()
+    target_cursor.close()
+
+# FastAPI endpoint'i
+@app.get("/transfer")
+def transfer_endpoint():
+    transfer_data()
+    return {"status": "success", "message": "Data transferred successfully"}
+
+# Starting the app
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=8000)
+
 ```
 
 ## To convert the API we created into an executable (.exe), run the following commands in order.
