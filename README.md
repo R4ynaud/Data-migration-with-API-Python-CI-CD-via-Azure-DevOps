@@ -55,3 +55,11 @@ Azure DevOps, yazılım geliştirme, test etme ve dağıtım süreçlerini otoma
 ## First, we install Python on our computer to develop our API.
 
 ## Öncelikle API’mizi geliştirmek için bilgisayarımıza Python kuruyoruz.
+
+• Download and install the latest version of Python from the following link.
+
+• Aşağıdaki bağlantıdan Python'un en son sürümünü indirip yükleyin.
+
+```
+https://www.python.org/downloads/windows/
+```
