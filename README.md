@@ -127,7 +127,13 @@ pyinstaller --onefile Data.py
 ![image](https://github.com/user-attachments/assets/161f638e-4d97-4bdd-9ec2-68aebbcac823)
 
 
-NOTE !!! 
+## The information in the table below belongs to the Microsoft Northwind database !
+
+## Aşağıdaki tabloda yer alan bilgiler Microsoft Northwind veritabanına aittir !
+
+```
+https://github.com/Microsoft/sql-server-samples/tree/master/samples/databases/northwind-pubs  
+```
 
 ![image](https://github.com/user-attachments/assets/1c6bc4a5-86ec-4bbe-9979-363207a8e27b)
 
