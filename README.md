@@ -106,8 +106,14 @@ pip install pyinstaller
 
 ```
 pyinstaller --onefile Data.py
-
 ```
 
 ![image](https://github.com/user-attachments/assets/9b3e28ef-cdf0-45e9-a6ba-6962b12ca0da)
 
+
+## The API we converted to an executable (.exe) will appear as follows.
+
+## .exe'e dönüştürdüğümüz API aşağıdaki gibi görünecektir
+
+
+![image](https://github.com/user-attachments/assets/ed58b1c1-2887-473d-9fa2-d62518cb396b)
