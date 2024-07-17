@@ -2,7 +2,8 @@
 Data migration with API (Python), scheduled via Azure DevOps
 
 
-![image](https://github.com/user-attachments/assets/666c3dd5-943c-4c90-a4a7-b1e35f7c835e)
+![image](https://github.com/user-attachments/assets/02b5c1d3-7e6f-4961-9018-b1a5cccd7712)
+
 
 
 ### What is an API ?
