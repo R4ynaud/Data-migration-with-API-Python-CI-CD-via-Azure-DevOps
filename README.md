@@ -194,4 +194,7 @@ We have developed and tested our API, ensuring seamless data transfer. However, 
 API'mizi oluşturduk ve test ettik; sorunsuz veri aktarımı gerçekleştiriyor. Ancak, bu API'yi sürekli olarak çalıştırmak için Azure DevOps'ta bir CI/CD süreci başlatarak tüm bu süreçleri otomatikleştirmeliyiz. Bu sayede, veri aktarımı işlemleri kesintisiz ve hatasız bir şekilde gerçekleştirilir. CI/CD entegrasyonu, kod değişikliklerinin anında uygulanmasını ve yeni sürümlerin hızlı bir şekilde dağıtılmasını sağlar, böylece operasyonel verimlilik artar.
 
 
+##
+
+##
 
