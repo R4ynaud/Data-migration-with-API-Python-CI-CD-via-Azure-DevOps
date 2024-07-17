@@ -15,7 +15,7 @@ In this documentation, we will develop APIs using Python. Python's extensive lib
 
 # Advantages of Data Transfer with API
 
-• Seamless Integration: APIs allow different systems and applications to connect smoothly.
+• Seamless Integration : APIs allow different systems and applications to connect smoothly.
 
 • Automation: Using APIs eliminates manual data entry and enables process automation.
 
