@@ -233,7 +233,7 @@ git init
 
 
 ```
-C:\Users\Administrator\Desktop\Azure
+cd C:\Users\Administrator\Desktop\Azure
 ```
 
 ## Set up the remote configuration using the Azure DevOps repository URL.
@@ -244,7 +244,8 @@ C:\Users\Administrator\Desktop\Azure
 git remote set-url origin https://dev.azure.com/your_organization/your_project/_git/your_repo
 ```
 
-![image](https://github.com/user-attachments/assets/d8183df2-e7ac-40a3-a9b8-6f98646c6e18)
+![image](https://github.com/user-attachments/assets/1580f6ce-4b95-449a-a2a4-06c7a87b9899)
+
 
 
 
