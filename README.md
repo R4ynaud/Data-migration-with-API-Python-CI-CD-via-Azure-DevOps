@@ -195,7 +195,19 @@ We have developed and tested our API, ensuring seamless data transfer. However, 
 API'mizi oluşturduk ve test ettik; sorunsuz veri aktarımı gerçekleştiriyor. Ancak, bu API'yi sürekli olarak çalıştırmak için Azure DevOps'ta bir CI/CD süreci başlatarak tüm bu süreçleri otomatikleştirmeliyiz. Bu sayede, veri aktarımı işlemleri kesintisiz ve hatasız bir şekilde gerçekleştirilir. CI/CD entegrasyonu, kod değişikliklerinin anında uygulanmasını ve yeni sürümlerin hızlı bir şekilde dağıtılmasını sağlar, böylece operasyonel verimlilik artar.
 
 
-##
+## First, we convert our local project into a Git repository.
 
-##
+## Öncelikle yerel projemizi Git deposuna dönüştürüyoruz.
+
+```
+cd C:\Users\Administrator\Desktop\Azure
+```
+
+```
+git init
+```
+
+![image](https://github.com/user-attachments/assets/7eb2478b-6571-41cb-9b8d-5da2b3b11c5d)
+
+
 
