@@ -91,22 +91,35 @@ pip install fastapi uvicorn
 
 ## Kurulumları tamamladıktan sonra aşağıdaki Python kodunu bir editör kullanarak .py dosyasına dönüştürün.
 
+
+# Note; 
+
+• The API we have developed will provide data integration between the source database and the target database, and will ensure data consistency checks every 20 seconds. It will allow us to pull data into the target database as soon as it is entered into the source database.
+
+# Not; 
+
+• Geliştirdiğimiz API, kaynak veritabanı ile hedef veritabanı arasında veri entegrasyonunu sağlayacak ve her 20 saniyede bir veri tutarlılık kontrollerinin yapılmasını sağlayacaktır. Kaynak veritabanına girildiği anda verileri hedef veritabanına çekmemize olanak tanıyacaktır. 
+
+
+
 ```
 import pyodbc
 from fastapi import FastAPI
+import uvicorn
+import requests
+import threading
 
 app = FastAPI()
 
-# Source & Target DB Connection
-
+# db_connection
 source_conn = pyodbc.connect(
-    'DRIVER={SQL Server};SERVER=source_server;DATABASE=Work;UID=user;PWD=password'
+    'DRIVER={SQL Server};SERVER=SERVER-NAME\\NAME;DATABASE=DB_NAME;UID=USER;PWD=PASSWORD'
 )
 target_conn = pyodbc.connect(
-    'DRIVER={SQL Server};SERVER=target_server;DATABASE=Target;UID=user;PWD=password'
+    'DRIVER={SQL Server};SERVER=SERVER-NAME\\NAME;DATABASE=DB_NAME;UID=USER;PWD=PASSWORD'
 )
 
-# Data migration function
+# Data Migration function
 def transfer_data():
     source_cursor = source_conn.cursor()
     target_cursor = target_conn.cursor()
@@ -115,10 +128,10 @@ def transfer_data():
     rows = source_cursor.fetchall()
 
     for row in rows:
-        # CustomerID check in target database
+        # Target DB CustomerID control
         target_cursor.execute('SELECT COUNT(*) FROM Target_Customers WHERE CustomerID = ?', row.CustomerID)
         if target_cursor.fetchone()[0] == 0:
-            # Add CustomerID if it is not in the target database
+            # CustomerID add it if it is not in the target database
             target_cursor.execute('''
                 INSERT INTO Target_Customers (CustomerID, CompanyName, ContactName, ContactTitle, Address, City, Region, PostalCode, Country, Phone, Fax)
                 VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
@@ -134,10 +147,23 @@ def transfer_endpoint():
     transfer_data()
     return {"status": "success", "message": "Data transferred successfully"}
 
-# Starting the app
+# API to automatically transfer data when started
+def auto_transfer():
+    while True:
+        response = requests.get("http://localhost:8000/transfer")
+        print(response.json())
+        time.sleep(20)  # 20 wait a second
+
+# Uygulamayı başlatma
 if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    # Uvicorn
+    server_thread = threading.Thread(target=uvicorn.run, args=(app,), kwargs={"host": "0.0.0.0", "port": 8000})
+    server_thread.start()
+
+    # API add a small delay to trigger data transfer after initialization
+    import time
+    time.sleep(2)  # 2 wait a second
+    threading.Thread(target=auto_transfer).start()
 
 ```
 
