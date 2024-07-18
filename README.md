@@ -478,5 +478,19 @@ jobs:
 
 
 
+## Click on the '+ Add' button under the 'Scheduled' tab.
 
+## 'Scheduled' sekmesinden '+ Add' sekmesine tıklayın.
+
+
+![image](https://github.com/user-attachments/assets/2ca6e78a-66b1-4887-aa63-0facab97b08f)
+
+
+
+## Finally, on the page that opens, we need to select the days and time range for the pipeline to run. As an example, I have scheduled it to run every day at 10:50 AM (UTC+03:00).
+
+## Son olarak açılan sayfada pipeline'ın çalışacağı günleri ve zaman aralığını seçmemiz gerekiyor. Örnek olarak, her gün saat 10:50'de (UTC+03:00) çalışacak şekilde planladım.
+
+
+![image](https://github.com/user-attachments/assets/6d630ee3-dd95-4530-aba1-5c16e4453454)
 
