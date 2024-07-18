@@ -267,7 +267,7 @@ cd C:\Users\Administrator\Desktop\Azure
 ## Azure DevOps repository URL'sini kullanarak remote ayarını yapın.
 
 ```
-git remote set-url origin https://dev.azure.com/your_organization/your_project/_git/your_repo
+git remote add origin https://dev.azure.com/your_organization/your_project/_git/your_repo
 ```
 
 ![image](https://github.com/user-attachments/assets/1580f6ce-4b95-449a-a2a4-06c7a87b9899)
