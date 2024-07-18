@@ -492,5 +492,16 @@ jobs:
 ## Son olarak açılan sayfada pipeline'ın çalışacağı günleri ve zaman aralığını seçmemiz gerekiyor. Örnek olarak, her gün saat 10:50'de (UTC+03:00) çalışacak şekilde planladım.
 
 
-![image](https://github.com/user-attachments/assets/6d630ee3-dd95-4530-aba1-5c16e4453454)
+![image](https://github.com/user-attachments/assets/a2408f3b-129e-4d5a-b520-d739d595d675)
+
+
+
+## When it runs successfully, we should see an output similar to the one below, and there should be 'Scheduled' information.
+
+## Sorunsuz çalıştığı zaman aşağıdaki gibi bir çıktı almamız gerekiyor ve 'Scheduled' bilgisi bulunması lazım.
+
+
+
+
+
 
