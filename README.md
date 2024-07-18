@@ -391,18 +391,27 @@ jobs:
 ## Importance of Azure DevOps Agents:
 
 • Automation: Reduces manual intervention and errors.
+
 • Scalability: Handles larger workloads with multiple agents.
+
 • Consistency: Ensures uniform execution across environments.
+
 • Resource Management: Optimizes hardware and software use.
+
 • Flexibility: Supports various operating systems and configurations.
 
 ## Advantages of Azure DevOps Agents:
 
 • Ease of Integration: Smooth integration with Azure DevOps services.
+
 • Cost Efficiency: Manages infrastructure costs with self-hosted agents.
+
 • Customization: Allows specific tools and scripts for unique needs.
+
 • Improved Performance: Faster build and deployment times.
+
 • Security: Provides robust security features for build environments.
+
 • In summary, Azure DevOps agents are crucial for efficient, consistent, and secure DevOps workflows.
 
 
@@ -411,18 +420,27 @@ jobs:
 ## Azure DevOps Agent'larının Önemi:
 
 • Otomasyon: Manuel müdahaleyi ve hataları azaltır.
+
 • Ölçeklenebilirlik: Birden fazla Agent ile daha büyük iş yüklerini yönetir.
+
 • Tutarlılık: Farklı ortamlarda tutarlı yürütme sağlar.
+
 • Kaynak Yönetimi: Donanım ve yazılım kullanımını optimize eder.
+
 • Esneklik: Çeşitli işletim sistemleri ve yapılandırmaları destekler.
 
 ## Azure DevOps Agent'larının Avantajları:
 
 • Entegrasyon Kolaylığı: Azure DevOps hizmetleriyle sorunsuz entegrasyon.
+
 • Maliyet Verimliliği: Kendi barındırdığı Agent'larla altyapı maliyetlerini yönetir.
+
 • Özelleştirme: Özel araçlar ve komut dosyaları eklenebilir.
+
 • Geliştirilmiş Performans: Daha hızlı derleme ve dağıtım süreleri.
+
 • Güvenlik: Derleme ortamları için güçlü güvenlik özellikleri sağlar.
+
 • Özetle, Azure DevOps Agent'ları, verimli, tutarlı ve güvenli DevOps iş akışları için kritik öneme sahiptir.
 
 
