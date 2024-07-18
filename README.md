@@ -501,7 +501,8 @@ jobs:
 ## Sorunsuz çalıştığı zaman aşağıdaki gibi bir çıktı almamız gerekiyor ve 'Scheduled' bilgisi bulunması lazım.
 
 
-![image](https://github.com/user-attachments/assets/9ee5cd79-3f6a-4340-8df0-a8f4d4571848)
+![image](https://github.com/user-attachments/assets/1d19a4b6-267b-458f-8d20-85220cc4f150)
+
 
 
 
