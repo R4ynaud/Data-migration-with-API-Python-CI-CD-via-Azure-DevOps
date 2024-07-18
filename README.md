@@ -233,7 +233,8 @@ cd C:\Users\Administrator\Desktop\Azure
 git init
 ```
 
-![image](https://github.com/user-attachments/assets/7eb2478b-6571-41cb-9b8d-5da2b3b11c5d)
+![image](https://github.com/user-attachments/assets/1301fde0-af24-4943-863f-b433ac24a85b)
+
 
 
 ## We create a new repository on Azure DevOps to transfer our project.
