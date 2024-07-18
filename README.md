@@ -334,25 +334,35 @@ git push origin master
 
 ```
 trigger:
-- main  # main branch üzerine push yapıldığında pipeline tetiklenir
+- main
 
 pool:
-  vmImage: 'ubuntu-latest'
+  name: 'R4'  # Agent pool name
 
-steps:
-- task: UsePythonVersion@0
-  inputs:
-    versionSpec: '3.x'
-    addToPath: true
+jobs:
+- job: LocalAgentJob
+  displayName: 'Run Python API on Local Agent'
 
-- script: |
-    python -m pip install --upgrade pip
-    pip install fastapi uvicorn pyodbc
-  displayName: 'Install dependencies'
+  steps:
+  - script: |
+      python --version
+    displayName: 'Check Python Version'
 
-- script: |
-    python Data.py
-  displayName: 'Run API'
+  - script: |
+      python -m venv venv
+      source venv/bin/activate
+      pip install fastapi uvicorn requests pyodbc
+    displayName: 'Set up Python environment'
+
+  - script: |
+      cd Azure
+      python Data.py &
+    displayName: 'Start the Python API'
+
+  - script: |
+      sleep 10  # API'nin başlamasını beklemek için 10 saniye bekle
+      curl http://localhost:8000/transfer
+    displayName: 'Trigger Data Transfer'
 
 ```
 
