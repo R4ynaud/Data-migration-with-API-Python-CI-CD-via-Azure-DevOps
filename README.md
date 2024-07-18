@@ -465,9 +465,16 @@ jobs:
 ## Açılan sayfada daha önce oluşturduğumuz işlem pipeline'ı bulun. Daha önce oluşturulan pipeline'a girmek için sağ taraftaki 'Edit' sekmesine tıklayın.
 
 
-![image](https://github.com/user-attachments/assets/97a5ea46-9477-4f2f-94cf-3ffa4b7d3cac)
+![image](https://github.com/user-attachments/assets/05c00144-b007-46f7-bdfd-93035a2fa74f)
 
 
+
+## On the page that opens, click on the 'Triggers' tab located on the right side.
+
+## Açılan sayfada sağ tarafta bulunan 'Triggers' sekmesine tıklayın.
+
+
+![image](https://github.com/user-attachments/assets/df3a7d31-ebc5-48d8-8f92-38dac7c2ffde)
 
 
 
