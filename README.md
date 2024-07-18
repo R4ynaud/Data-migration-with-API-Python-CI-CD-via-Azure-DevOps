@@ -295,14 +295,15 @@ git push origin master
 ![image](https://github.com/user-attachments/assets/98fde850-807a-482d-8a52-55b718aad580)
 
 
-
-## CI (Continuous Integration) Pipeline'ı Oluşturma
-
 ## Creating a CI (Continuous Integration) Pipeline.
+
+## CI (Continuous Integration) Pipeline'ı Oluşturma.
+
+
+• In the Azure DevOps portal, go to the 'Pipelines' section in the left menu and click on the 'Create Pipeline' button.
 
 • Azure DevOps portalında, sol menüde 'Pipelines' sekmesine gidin ve 'Create Pipeline' butonuna tıklayın.
 
-• In the Azure DevOps portal, go to the 'Pipelines' section in the left menu and click on the 'Create Pipeline' button.
 
 ![image](https://github.com/user-attachments/assets/fac947b7-6d6d-4867-8a72-e441a12684f6)
 
@@ -375,6 +376,29 @@ jobs:
 ## Oluşturduğumuz Pipeline sorunsuz çalıştığında aşağıdakine benzer bir çıktı üretecektir.
 
 ![image](https://github.com/user-attachments/assets/0c2977e8-4cca-461c-813a-7f7e15d5a7b1)
+
+
+## Creating a CD (Continuous Deployment) Pipeline.
+
+## CD (Continuous Deployment) Pipeline'ı Oluşturma.
+
+
+• Continuous Deployment (CD) is a software development practice where code changes are automatically tested and deployed to production as soon as they are committed to the source code repository. This process aims to ensure that software can be released to users quickly and safely in a sustainable way. CD is the last phase in the CI/CD pipeline, following Continuous Integration (CI), and it emphasizes automation and monitoring to deliver high-quality software continuously.
+
+• Continuous Deployment (CD), kod değişikliklerinin kaynak kod deposuna gönderildiği anda otomatik olarak test edilip üretime (production) alınmasını sağlayan bir yazılım geliştirme pratiğidir. Bu süreç, yazılımın kullanıcılara hızlı ve güvenli bir şekilde, sürdürülebilir bir şekilde sunulmasını sağlamayı amaçlar. CD, Sürekli Entegrasyon (CI) sürecinin ardından gelen CI/CD hattının son aşamasıdır ve otomasyon ile izlemeyi vurgulayarak sürekli olarak yüksek kaliteli yazılım teslim etmeyi amaçlar.
+
+
+## To create the CD process, we first need to define a new Environment. To define an Environment, click on the “Pipelines” > “Environments” section from the left menu.
+
+## CD sürecini oluşturmak için öncelikle yeni bir Environments tanımlamamız gerekiyor. Environments tanımlamak için soldaki menüden “Pipelines” “Environments” bölümüne tıklayın.
+
+
+![image](https://github.com/user-attachments/assets/7cb67fed-d77a-49ac-98ae-d7f7d8efb1b7)
+
+
+
+
+
 
 
 
