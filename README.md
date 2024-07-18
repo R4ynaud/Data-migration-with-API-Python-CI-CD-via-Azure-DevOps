@@ -381,25 +381,49 @@ jobs:
 ![image](https://github.com/user-attachments/assets/33d82674-aadf-4ffa-a697-75d954cae165)
 
 
-## Creating a CD (Continuous Deployment) Pipeline.
+## ENG.
 
-## CD (Continuous Deployment) Pipeline'ı Oluşturma.
-
-
-• Continuous Deployment (CD) is a software development practice where code changes are automatically tested and deployed to production as soon as they are committed to the source code repository. This process aims to ensure that software can be released to users quickly and safely in a sustainable way. CD is the last phase in the CI/CD pipeline, following Continuous Integration (CI), and it emphasizes automation and monitoring to deliver high-quality software continuously.
-
-• Continuous Deployment (CD), kod değişikliklerinin kaynak kod deposuna gönderildiği anda otomatik olarak test edilip üretime (production) alınmasını sağlayan bir yazılım geliştirme pratiğidir. Bu süreç, yazılımın kullanıcılara hızlı ve güvenli bir şekilde, sürdürülebilir bir şekilde sunulmasını sağlamayı amaçlar. CD, Sürekli Entegrasyon (CI) sürecinin ardından gelen CI/CD hattının son aşamasıdır ve otomasyon ile izlemeyi vurgulayarak sürekli olarak yüksek kaliteli yazılım teslim etmeyi amaçlar.
+## Tüm süreci tamamladıktan sonra geriye sadece bir adım kalıyor oda Agent aracılığı ile oluşturduğumuz pipeline'ı schedule etmek.
 
 
-## To create the CD process, we first need to define a new Environment. To define an Environment, click on the “Pipelines” > “Environments” section from the left menu.
+## Azure DevOps agents are essential for automating and streamlining CI/CD processes. They run tasks in build, test, and deployment pipelines, ensuring consistency and efficiency.
 
-## CD sürecini oluşturmak için öncelikle yeni bir Environments tanımlamamız gerekiyor. Environments tanımlamak için soldaki menüden “Pipelines” “Environments” bölümüne tıklayın.
+## Importance of Azure DevOps Agents:
+
+• Automation: Reduces manual intervention and errors.
+• Scalability: Handles larger workloads with multiple agents.
+• Consistency: Ensures uniform execution across environments.
+• Resource Management: Optimizes hardware and software use.
+• Flexibility: Supports various operating systems and configurations.
+
+## Advantages of Azure DevOps Agents:
+
+• Ease of Integration: Smooth integration with Azure DevOps services.
+• Cost Efficiency: Manages infrastructure costs with self-hosted agents.
+• Customization: Allows specific tools and scripts for unique needs.
+• Improved Performance: Faster build and deployment times.
+• Security: Provides robust security features for build environments.
+• In summary, Azure DevOps agents are crucial for efficient, consistent, and secure DevOps workflows.
 
 
-![image](https://github.com/user-attachments/assets/7cb67fed-d77a-49ac-98ae-d7f7d8efb1b7)
+## Azure DevOps Agent'ları, CI/CD süreçlerini otomatikleştirmek ve düzenlemek için önemlidir. Derleme, test ve pipelineları çalıştırarak tutarlılık ve verimlilik sağlarlar.
 
+## Azure DevOps Agent'larının Önemi:
 
+• Otomasyon: Manuel müdahaleyi ve hataları azaltır.
+• Ölçeklenebilirlik: Birden fazla Agent ile daha büyük iş yüklerini yönetir.
+• Tutarlılık: Farklı ortamlarda tutarlı yürütme sağlar.
+• Kaynak Yönetimi: Donanım ve yazılım kullanımını optimize eder.
+• Esneklik: Çeşitli işletim sistemleri ve yapılandırmaları destekler.
 
+## Azure DevOps Agent'larının Avantajları:
+
+• Entegrasyon Kolaylığı: Azure DevOps hizmetleriyle sorunsuz entegrasyon.
+• Maliyet Verimliliği: Kendi barındırdığı Agent'larla altyapı maliyetlerini yönetir.
+• Özelleştirme: Özel araçlar ve komut dosyaları eklenebilir.
+• Geliştirilmiş Performans: Daha hızlı derleme ve dağıtım süreleri.
+• Güvenlik: Derleme ortamları için güçlü güvenlik özellikleri sağlar.
+• Özetle, Azure DevOps Agent'ları, verimli, tutarlı ve güvenli DevOps iş akışları için kritik öneme sahiptir.
 
 
 
