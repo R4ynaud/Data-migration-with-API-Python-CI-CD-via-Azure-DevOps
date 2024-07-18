@@ -378,6 +378,9 @@ jobs:
 ![image](https://github.com/user-attachments/assets/0c2977e8-4cca-461c-813a-7f7e15d5a7b1)
 
 
+![image](https://github.com/user-attachments/assets/33d82674-aadf-4ffa-a697-75d954cae165)
+
+
 ## Creating a CD (Continuous Deployment) Pipeline.
 
 ## CD (Continuous Deployment) Pipeline'ı Oluşturma.
