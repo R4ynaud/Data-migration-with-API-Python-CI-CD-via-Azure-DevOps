@@ -1,5 +1,5 @@
-# Data-migration-with-API-Python-scheduled-via-Azure-DevOps
-Data migration with API (Python), scheduled via Azure DevOps
+# Data-migration-with-API-Python-CI/CD-via-Azure-DevOps
+Data migration with API (Python), CI/CD via Azure DevOps
 
 
 ![image](https://github.com/user-attachments/assets/02b5c1d3-7e6f-4961-9018-b1a5cccd7712)
