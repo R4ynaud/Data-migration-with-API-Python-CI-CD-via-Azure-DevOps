@@ -381,14 +381,16 @@ jobs:
 ![image](https://github.com/user-attachments/assets/33d82674-aadf-4ffa-a697-75d954cae165)
 
 
-## ENG.
+## After completing the entire process, there is only one step remaining: scheduling the pipeline we created via the Agent.
 
-## Tüm süreci tamamladıktan sonra geriye sadece bir adım kalıyor oda Agent aracılığı ile oluşturduğumuz pipeline'ı schedule etmek.
+## Tüm süreci tamamladıktan sonra geriye tek bir adım kalıyor: Agent aracılığıyla oluşturduğumuz pipeline'ı schedule etmek.
 
 
 ## Azure DevOps agents are essential for automating and streamlining CI/CD processes. They run tasks in build, test, and deployment pipelines, ensuring consistency and efficiency.
 
+
 ## Importance of Azure DevOps Agents:
+
 
 • Automation: Reduces manual intervention and errors.
 
@@ -400,7 +402,9 @@ jobs:
 
 • Flexibility: Supports various operating systems and configurations.
 
+
 ## Advantages of Azure DevOps Agents:
+
 
 • Ease of Integration: Smooth integration with Azure DevOps services.
 
@@ -417,7 +421,9 @@ jobs:
 
 ## Azure DevOps Agent'ları, CI/CD süreçlerini otomatikleştirmek ve düzenlemek için önemlidir. Derleme, test ve pipelineları çalıştırarak tutarlılık ve verimlilik sağlarlar.
 
+
 ## Azure DevOps Agent'larının Önemi:
+
 
 • Otomasyon: Manuel müdahaleyi ve hataları azaltır.
 
@@ -429,7 +435,9 @@ jobs:
 
 • Esneklik: Çeşitli işletim sistemleri ve yapılandırmaları destekler.
 
+
 ## Azure DevOps Agent'larının Avantajları:
+
 
 • Entegrasyon Kolaylığı: Azure DevOps hizmetleriyle sorunsuz entegrasyon.
 
@@ -442,6 +450,22 @@ jobs:
 • Güvenlik: Derleme ortamları için güçlü güvenlik özellikleri sağlar.
 
 • Özetle, Azure DevOps Agent'ları, verimli, tutarlı ve güvenli DevOps iş akışları için kritik öneme sahiptir.
+
+
+## First, click on the 'Pipelines' tab from the menu.
+
+## Öncelikle menüden 'Pipelines' sekmesine tıklayın. 
+
+
+![image](https://github.com/user-attachments/assets/e003b78d-5dd3-4653-88bf-228cbac1b63b)
+
+
+## On the page that opens, locate the pipeline we created earlier. Click on the 'Edit' tab on the right side to enter the previously created pipeline.
+
+## Açılan sayfada daha önce oluşturduğumuz işlem pipeline'ı bulun. Daha önce oluşturulan pipeline'a girmek için sağ taraftaki 'Edit' sekmesine tıklayın.
+
+
+![image](https://github.com/user-attachments/assets/97a5ea46-9477-4f2f-94cf-3ffa4b7d3cac)
 
 
 
