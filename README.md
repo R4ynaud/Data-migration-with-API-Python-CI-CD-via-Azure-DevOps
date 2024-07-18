@@ -290,7 +290,8 @@ git push origin master
 ![image](https://github.com/user-attachments/assets/67d3d4de-fef4-4b71-b9a2-d3d98f75fdb5)
 
 
-![image](https://github.com/user-attachments/assets/89cae3c9-c327-430a-b43b-1e65130d4153)
+![image](https://github.com/user-attachments/assets/98fde850-807a-482d-8a52-55b718aad580)
+
 
 
 ## CI (Continuous Integration) Pipeline'ı Oluşturma
@@ -332,6 +333,11 @@ git push origin master
 ## Local'de yapacağınız her işlem için Azure DevOps Self Hosted Agent oluşturmak zorundasınız ! 
 
 
+• To run our project on Azure DevOps, we need to create a YAML file. Use the following code to create the YAML file.
+
+• Projemizi Azure DevOps üzerinde çalıştırmak için YAML dosyası oluşturmamız gerekiyor. YAML dosyasını oluşturmak için aşağıdaki kodu kullanın.
+
+
 ```
 trigger:
 - main
@@ -359,13 +365,14 @@ jobs:
       python Data.py &
     displayName: 'Start the Python API'
 
-  - script: |
-      sleep 10  # API'nin başlamasını beklemek için 10 saniye bekle
-      curl http://localhost:8000/transfer
-    displayName: 'Trigger Data Transfer'
 
 ```
 
+## When the pipeline we created runs smoothly, it will produce an output similar to the following.
+
+## Oluşturduğumuz Pipeline sorunsuz çalıştığında aşağıdakine benzer bir çıktı üretecektir.
+
+![image](https://github.com/user-attachments/assets/0c2977e8-4cca-461c-813a-7f7e15d5a7b1)
 
 
 
