@@ -154,7 +154,7 @@ def auto_transfer():
         print(response.json())
         time.sleep(20)  # 20 wait a second
 
-# Uygulamayı başlatma
+# App
 if __name__ == "__main__":
     # Uvicorn
     server_thread = threading.Thread(target=uvicorn.run, args=(app,), kwargs={"host": "0.0.0.0", "port": 8000})
